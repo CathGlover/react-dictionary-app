@@ -5,6 +5,16 @@ function App() {
   return (
     <div className="App">
       <Dictionary />
+      <footer>
+        Open source code by Catherine, published on{" "}
+        <a
+          href="https://github.com/CathGlover/react-dictionary-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
